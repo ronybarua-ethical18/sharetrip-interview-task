@@ -1,9 +1,12 @@
-import './App.css';
-
+import "./App.css";
+import Home from "./pages/Home/Home";
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <h1>SF Pro Display 500</h1>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+      </Routes>
     </div>
   );
 }
