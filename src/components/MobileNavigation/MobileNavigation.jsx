@@ -9,7 +9,7 @@ import {
   MobileSpin,
   SpinTitle,
   SpinWrap
-} from "./MobileNavItems";
+} from "./MobileNavStyles";
 import spin from "../../assets/spin.png";
 import switchIcon from "../../assets/switchIcon.png";
 import ReactSwitch from "react-switch";
@@ -20,7 +20,7 @@ const MobileNavigation = ({ isOpen, toggle }) => {
       setChecked(!checked);
     };
   return (
-    <NavigationContainer isOpen={isOpen} onClick={toggle}>
+    <NavigationContainer isOpen={isOpen}>
       <Icon onClick={toggle}>
         <CloseIcon></CloseIcon>
       </Icon>

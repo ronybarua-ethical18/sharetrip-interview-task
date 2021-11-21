@@ -2,7 +2,8 @@ import React from "react";
 import {
   BusCarouselContainer,
   CarouselItem,
-} from "./AvailableBusCarouselItems";
+  CarouselTitle
+} from "./AvailableBusCarouselStyles";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { busDetails } from "../../dummyData";
@@ -58,7 +59,7 @@ const AvailableBusCarousel = () => {
       <Carousel {...carouselParams}>
         {busDetails.map((bus) => (
           <CarouselItem key={bus.id}>
-            <h5>{bus.name}</h5>
+            <CarouselTitle>{bus.name}</CarouselTitle>
             <small>{bus.buses} Buses</small>
           </CarouselItem>
         ))}

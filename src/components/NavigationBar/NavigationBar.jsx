@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-import "./NavigationBar.css";
 import brand from "../../assets/Full.png";
 import spin from "../../assets/spin.png";
 import switchIcon from "../../assets/switchIcon.png";
-import { Nav, BrandLogo, NavLink, Bars, NavMenu, Spin, NavItemsWrapper, SpinTitle } from "./NavItems";
+import { Nav, BrandLogo, NavLink, Bars, NavMenu, Spin, NavItemsWrapper, SpinTitle } from "./NavStyles";
 import ReactSwitch from "react-switch";
 const NavigationBar = ({ toggle }) => {
   const [checked, setChecked] = useState(false);
@@ -20,34 +19,34 @@ const NavigationBar = ({ toggle }) => {
         <Bars onClick={toggle}/>
         <NavItemsWrapper>
           <NavMenu>
-            <NavLink to="/flight" className="item">
+            <NavLink to="/flight">
               Flight
             </NavLink>
-            <NavLink to="/" className="item">
+            <NavLink to="/" >
               Bus
             </NavLink>
-            <NavLink to="/hotel" className="item">
+            <NavLink to="/hotel" >
               Hotel
             </NavLink>
-            <NavLink to="/visa" className="item">
+            <NavLink to="/visa">
               Visa
             </NavLink>
-            <NavLink to="/visacard" className="item">
+            <NavLink to="/visacard">
               Visa card
             </NavLink>
-            <NavLink to="/holiday" className="item">
+            <NavLink to="/holiday" >
               Holiday
             </NavLink>
-            <NavLink to="/group" className="item">
+            <NavLink to="/group">
               Group Request
             </NavLink>
-            <NavLink to="/travel" className="item">
+            <NavLink to="/travel">
               Travel Advisory
             </NavLink>
-            <NavLink to="/promotions" className="item">
+            <NavLink to="/promotions">
               Promotions
             </NavLink>
-            <NavLink to="/blog" className="item">
+            <NavLink to="/blog" >
               Blog
             </NavLink>
           </NavMenu>
@@ -61,7 +60,7 @@ const NavigationBar = ({ toggle }) => {
                   src={switchIcon}
                   alt="switchIcon"
                   className="switchIcon"
-                ></img>
+                />
               }
               checked={checked}
             />

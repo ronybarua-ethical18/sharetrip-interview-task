@@ -9,8 +9,10 @@ import {
   BusSchedule,
   ArrowOne,
   FlipBusIcon,
-  ModifyButton
-} from "./SearchModifierItems";
+  ModifyButton,
+  FirstTitle,
+  ThirdTitle
+} from "./SearchModifierStyles";
 import busIcon from "../../assets/busOne.png";
 import arrowOne from "../../assets/arrowOne.png";
 import arrowTwo from "../../assets/arrowTwo.png";
@@ -24,7 +26,7 @@ const SearchModifier = () => {
             <BusSchedule>
               <h5>Onward Journey</h5>
               <h3>Dhaka - Chottogram</h3>
-              <h6>22 June 2021(Tuesday)</h6>
+              <FirstTitle>22 June 2021(Tuesday)</FirstTitle>
             </BusSchedule>
           </FirstItem>
         </Grid>
@@ -39,7 +41,7 @@ const SearchModifier = () => {
             <BusSchedule>
               <h5>Return Journey</h5>
               <h3>Chottogram - Dhaka</h3>
-              <h6>24 June 2021(Tuesday)</h6>
+              <ThirdTitle>24 June 2021(Tuesday)</ThirdTitle>
             </BusSchedule>
           </ThirdItem>
         </Grid>

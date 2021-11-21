@@ -6,7 +6,7 @@ export const busDetails = [
      },
     { 
         id: 2,
-        name: "Sohag Paribahan",
+        name: "Shanti Express",
         buses: 50
      },
     { 
@@ -16,7 +16,7 @@ export const busDetails = [
      },
     { 
         id: 4,
-        name: "Saintmartin Travels",
+        name: "Saintmartin AC",
         buses: 35
      },
     { 
@@ -26,7 +26,7 @@ export const busDetails = [
      },
     { 
         id: 6,
-        name: "Green Line Volvo",
+        name: "Star Line Volvo",
         buses: 45
      },
     { 
@@ -36,7 +36,7 @@ export const busDetails = [
      },
     { 
         id: 8,
-        name: "Shanti Paribahan",
+        name: "Sohag Paribahan",
         buses: 85
      },
 ];

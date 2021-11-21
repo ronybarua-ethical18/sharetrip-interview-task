@@ -19,4 +19,8 @@ export const RightPanel = styled.div`
   background: #fff;
   color: #000;
   padding: 12px 20px;
+
+  @media screen and (max-width:960px){
+    padding: 12px 0px;
+  }
 `;

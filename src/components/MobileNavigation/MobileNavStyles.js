@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const NavigationContainer = styled.aside`
   position: fixed;
   z-index: 999;
-  background-color: #3062d0;
+  background-color: rgba(48, 98, 208, 0.9);
   color: white;
   width: 100%;
   height: 100%;
@@ -36,6 +36,7 @@ export const MobileNavWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top:20px;
 `;
 export const MobileNavMenu = styled.ul`
   display: grid;
@@ -62,7 +63,7 @@ export const MobileNavLink = styled(Link)`
   cursor: pointer;
 
   &:hover {
-    color: #3062d0;
+    color: rgba(255, 255, 255, 0.6);
     transition: 0.3s ease-in-out;
   }
 `;

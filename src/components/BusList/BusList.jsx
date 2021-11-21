@@ -18,12 +18,12 @@ import {
   CurrencyTitle,
   CurrencySubTitle,
   SeatButton,
-} from "./BusListItem";
+} from "./BusListStyles";
 const BusList = () => {
   return (
     <BusListContainer>
       <Grid container>
-        <Grid item md={9} xs={12}>
+        <Grid item md={9} xs={12} sm={12}>
           <LeftSide>
             <Topbar>
               <h4>AC</h4>
@@ -62,7 +62,7 @@ const BusList = () => {
             </BottomPart>
           </LeftSide>
         </Grid>
-        <Grid item md={3} xs={12}>
+        <Grid item md={3} xs={12} sm={12}>
           <RightSide>
             <div>
               <small>Per Person</small>

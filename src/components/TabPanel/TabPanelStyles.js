@@ -17,18 +17,18 @@ export const SinglePanel = styled.div`
   justify-content: flex-start;
   cursor: pointer;
 
-  &:hover {
+  /* &:hover {
     background: #3884f7;
     color: white;
     transition: 0.3s ease-in-out;
-  }
+  } */
 `;
 
 export const PanelIcon = styled.img`
   margin-right: 10px;
 `;
 export const SecondPanel = styled.div`
-display: flex;
+  display: flex;
   height: 40px;
   align-items: center;
   padding: 4px 16px;
@@ -37,4 +37,14 @@ display: flex;
   background: #3884f7;
   color: white;
   transition: 0.3s ease-in-out;
+`;
+
+export const PanelTitle = styled.h5`
+  color: #000;
+  opacity:1;
+`;
+
+export const SecondTitle = styled.h5`
+  color: #fff;
+  opacity:1;
 `;

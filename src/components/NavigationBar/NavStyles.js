@@ -8,10 +8,24 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   z-index: 10;
+
+  @media screen and (max-width: 1130px) {
+    flex-direction:column;
+    align-items: center;
+    height:auto;
+    padding:0px 8% 20px 8%;
+    overflow:hidden;
+
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction:row;
+    height:auto;
+    padding-bottom:20px;
+  }
 `;
 
 export const BrandLogo = styled.div`
-  padding: 6px 48x 6px 0px;
+  padding: 6px 30px 6px 0px;
   width: 226px;
   height: 68px;
 `;
@@ -70,8 +84,13 @@ align-items: center;
 width:100vw;
 white-space: nowrap;
 justify-content: space-between;
+
+@media screen and (max-width:1130px){
+  flex-direction:column;
+}
 `
 
 export const SpinTitle = styled.h5`
 margin: 0 10px;
 `
+ 
