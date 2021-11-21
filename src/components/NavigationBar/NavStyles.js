@@ -49,7 +49,7 @@ export const NavLink = styled(Link)`
 
 export const Bars = styled(FaBars)`
   display: none;
-  color: blue;
+  color: #3062D0;
 
   @media screen and (max-width: 768px) {
     display: block;
