@@ -11,7 +11,7 @@ export const busDetails = [
      },
     { 
         id: 3,
-        name: "Ena Transport Ltd",
+        name: "Ena Transports",
         buses: 20
      },
     { 

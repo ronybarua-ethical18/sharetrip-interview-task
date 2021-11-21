@@ -9,15 +9,11 @@ export const BusCarouselContainer = styled.div`
   border-radius: 3px;
 `
 export const CarouselItem = styled.div`
-  width: 150px;
   height: 44px;
   padding: 6px 6px;
-  border-left: 1px solid lightgray;
-
-  @media screen and (max-width:768px){
-    width:100%;
-  }
+  border-left: 1px solid #E5E5E9;
 `
 export const CarouselTitle = styled.h5`
+font-size: 13px;
 opacity:1;
 ` 

@@ -100,7 +100,7 @@ strong{
 }
 .react-multiple-carousel__arrow--left {
   left: 0 !important;
-  border-right:none !important;
+  /* border-right:none !important; */
 }
 .react-multiple-carousel__arrow--right {
   right: 0 !important;
@@ -114,7 +114,7 @@ strong{
 }
 .switchIcon{
   width: 20px;
-height: 20px;
-margin-top: 4px;
-margin-left:4px;
+  height: 20px;
+  margin-top: 4px;
+  margin-left:4px;
 }

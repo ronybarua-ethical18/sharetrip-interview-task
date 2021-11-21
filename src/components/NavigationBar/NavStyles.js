@@ -5,6 +5,9 @@ import { FaBars } from "react-icons/fa";
 export const Nav = styled.nav`
   height: 96px;
   padding: 0 8%;
+  position:sticky;
+  top:0;
+  background-color: #fff;
   display: flex;
   align-items: center;
   z-index: 10;

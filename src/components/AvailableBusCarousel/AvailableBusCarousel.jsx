@@ -9,6 +9,11 @@ import "react-multi-carousel/lib/styles.css";
 import { busDetails } from "../../dummyData";
 const AvailableBusCarousel = () => {
   const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 6
+    },
     desktop: {
       breakpoint: { max: 3000, min: 1619 },
       items: 6,
@@ -35,7 +40,7 @@ const AvailableBusCarousel = () => {
     additionalTransfrom: 0,
     arrows: true,
     autoPlay: true,
-    autoPlaySpeed: 3000,
+    autoPlaySpeed: 2000,
     centerMode: true,
     className: "",
     containerClass: "carousel-container",
@@ -48,11 +53,14 @@ const AvailableBusCarousel = () => {
     keyBoardControl: true,
     minimumTouchDrag: 80,
     renderButtonGroupOutside: true,
+    // removeArrowOnDeviceType:["tablet" ,"mobile"],
     renderDotsOutside: false,
     responsive: responsive,
     showDots: false,
     sliderClass: "",
     slidesToSlide: 1,
+    swipeable:true,
+    
   };
   return (
     <BusCarouselContainer>

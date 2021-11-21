@@ -54,7 +54,7 @@ const BusList = () => {
               <div>
                 <small>To</small>
                 <Title>
-                  Chattogram <strong> 5:30AM</strong>
+                  CHATTOGRAM <strong> 5:30AM</strong>
                 </Title>
                 <h5>Dampara Counter</h5>
                 <h6>23 June 2021</h6>
